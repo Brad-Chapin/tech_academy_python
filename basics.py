@@ -88,16 +88,23 @@
 #         str = str + bands[b] + "and"
 # print (str)
 
-# birthdays = {"Emily": "June 1950", "Maxine": "March 1962", "Kelly": "May 1955", "Violet": "January 1948"}
-# print (birthdays)
-# print (birthdays["Maxine"])
-# birthdays["Emily"] = "December 1975"
-# print (birthdays)
-# birthdays["Sara"] = "November 1980"
-# print(birthdays)
+birthdays = {"Emily": "June 1950", "Maxine": "March 1962", "Kelly": "May 1955", "Violet": "January 1948"}
+print (birthdays)
+print (birthdays["Maxine"])
+birthdays["Emily"] = "December 1975"
+print (birthdays)
+birthdays["Sara"] = "November 1980"
+print(birthdays)
+del birthdays["Kelly"]
+print (birthdays)
 
-def subtraction (a, b):
-    subtract = a-b
-    return subtract
+# def subtraction (a, b):
+#     subtract = a-b
+#     return subtract
+#
+# print(subtraction(20,10) + subtraction(20,10))
 
-print(subtraction(20,10))
+# x = 15
+# print (x)
+# del (x)
+# print (x)
