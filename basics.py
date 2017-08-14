@@ -58,7 +58,46 @@
 #     print count
 #     time.sleep(.5)
 
-mylist = ["one", "two", "three", "four", "five"]
-mylist_len = len(mylist)
-for i in range (0, mylist_len):
-    print mylist[i]
+# mylist = ["one", "two", "three", "four", "five"]
+# mylist_len = len(mylist)
+# for i in range (0, mylist_len):
+#     print mylist[i]
+
+# import time
+# counter = 1
+# while counter < 11:
+#     print (counter)
+#     time.sleep(.5)
+#     counter += 1
+#     time.sleep(.5)
+
+# import time
+# nums = [1, 2, 3, 4, 5, 6]
+# counter = 0
+# while counter < len(nums):
+#     print (nums[counter])
+#     counter += 1
+#     time.sleep(.5)
+
+# bands = ["The Beatles", "Rolling Stones", "Led Zeppelin", "Jimmy Hendrix"]
+# str = ""
+# for b in range (0, len(bands)):
+#     if b != (len(bands) - 2):
+#         str = str + bands[b] +", "
+#     elif b == (len(bands) - 2):
+#         str = str + bands[b] + "and"
+# print (str)
+
+# birthdays = {"Emily": "June 1950", "Maxine": "March 1962", "Kelly": "May 1955", "Violet": "January 1948"}
+# print (birthdays)
+# print (birthdays["Maxine"])
+# birthdays["Emily"] = "December 1975"
+# print (birthdays)
+# birthdays["Sara"] = "November 1980"
+# print(birthdays)
+
+def subtraction (a, b):
+    subtract = a-b
+    return subtract
+
+print(subtraction(20,10))
