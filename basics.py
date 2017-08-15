@@ -79,24 +79,26 @@
 #     counter += 1
 #     time.sleep(.5)
 
-# bands = ["The Beatles", "Rolling Stones", "Led Zeppelin", "Jimmy Hendrix"]
-# str = ""
-# for b in range (0, len(bands)):
-#     if b != (len(bands) - 2):
-#         str = str + bands[b] +", "
-#     elif b == (len(bands) - 2):
-#         str = str + bands[b] + "and"
-# print (str)
+bands = ["The Beatles", "Rolling Stones", "Led Zeppelin", "Jimmy Hendrix"]
+str = ""
+blen = len(bands)
+for b in range (0, blen):
+    if b != (blen - 2):
+        str = str + bands[b] +", "
+    elif b == (blen - 2):
+        str = str + bands[b] + " and "
+str = str + "are great bands."
+print (str)
 
-birthdays = {"Emily": "June 1950", "Maxine": "March 1962", "Kelly": "May 1955", "Violet": "January 1948"}
-print (birthdays)
-print (birthdays["Maxine"])
-birthdays["Emily"] = "December 1975"
-print (birthdays)
-birthdays["Sara"] = "November 1980"
-print(birthdays)
-del birthdays["Kelly"]
-print (birthdays)
+# birthdays = {"Emily": "June 1950", "Maxine": "March 1962", "Kelly": "May 1955", "Violet": "January 1948"}
+# print (birthdays)
+# print (birthdays["Maxine"])
+# birthdays["Emily"] = "December 1975"
+# print (birthdays)
+# birthdays["Sara"] = "November 1980"
+# print(birthdays)
+# del birthdays["Kelly"]
+# print (birthdays)
 
 # def subtraction (a, b):
 #     subtract = a-b
